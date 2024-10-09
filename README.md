@@ -1,7 +1,5 @@
 # Gesture Analysis
 
-![alt text](image.png)
-
 This repository contains code for the output and processing of acceleration, 
 gyroscopic, and temperature data from an IMU sensor connected to an ESP32S3. 
 
