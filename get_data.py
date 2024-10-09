@@ -26,7 +26,7 @@ try:
 
 except KeyboardInterrupt:
     df = pd.DataFrame(df_list, columns=['Sample Num', 'acc_x', 'acc_y', 'acc_z', 'gyro_x', 'gyro_y', 'gyro_z', 'temp'])
-    df.to_csv("C:\\Users\\ryanz\\Documents\\CS528\\gyroscope\\IMU\\sensor_data_down.csv")
+    df.to_csv("C:\\Users\\ryanz\\Documents\\CS528\\gyroscope\\IMU\\data\\sensor_data_down.csv")
     
     print("Stopping data capture, saving to csv...")
 
